@@ -13,11 +13,12 @@ require.config({
     'vue-i18n': 'https://cdnjs.cloudflare.com/ajax/libs/vue-i18n/6.1.1/vue-i18n.min',
     'text': 'https://cdnjs.cloudflare.com/ajax/libs/require-text/2.0.12/text.min',
     'json': 'https://unpkg.com/requirejs-plugins-current@1.0.3/src/json',
+    'noext': 'https://unpkg.com/requirejs-plugins-current@1.0.3/src/noext',
     'js-cookie': 'https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.4/js.cookie.min',
     'vue-meta': 'https://unpkg.com/vue-meta@1.0.4/lib/vue-meta.min',
     'store': 'http://mmvue.codecloudapp.com/store',
     'vue-moment': 'http://mmvue.codecloudapp.com/vue-moment',
-    'today_hours': 'http://mmvue.codecloudapp.com/today_hours.vue?noext'
+    'today_hours': 'http://mmvue.codecloudapp.com/today_hours.vue'
   }
 });
 
