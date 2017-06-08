@@ -17,7 +17,7 @@ require.config({
     'vue-meta': 'https://unpkg.com/vue-meta@1.0.4/lib/vue-meta.min',
     'store': 'http://mmvue.codecloudapp.com/store',
     'vue-moment': 'http://mmvue.codecloudapp.com/vue-moment',
-    'today_hours': 'http://mmvue.codecloudapp.com/today_hours?noext'
+    'today_hours': 'http://mmvue.codecloudapp.com/today_hours.vue?noext'
   }
 });
 
