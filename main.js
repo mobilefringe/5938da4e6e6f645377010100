@@ -16,7 +16,8 @@ require.config({
     'js-cookie': 'https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.4/js.cookie.min',
     'vue-meta': 'https://unpkg.com/vue-meta@1.0.4/lib/vue-meta.min',
     'store': 'http://mmvue.codecloudapp.com/store',
-    'vue-moment': 'http://mmvue.codecloudapp.com/vue-moment'
+    'vue-moment': 'http://mmvue.codecloudapp.com/vue-moment',
+    'today_hours.vue': 'http://mmvue.codecloudapp.com/today_hours.vue'
   }
 });
 
