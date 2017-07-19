@@ -1,6 +1,6 @@
 require.config({
   paths: {
-    'Vue': 'https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min',
+    'Vue': 'https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.1/vue.min',
     'vue_router': 'https://cdnjs.cloudflare.com/ajax/libs/vue-router/2.5.2/vue-router.min',
     'axios': 'https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.1/axios.min',
     'jquery': 'https://code.jquery.com/jquery-3.2.1.min',
@@ -17,7 +17,9 @@ require.config({
     'vue-meta': 'https://unpkg.com/vue-meta@1.0.4/lib/vue-meta.min',
     'store': 'https://mmvue.codecloudapp.com/store',
     'vue-moment': 'https://mmvue.codecloudapp.com/vue-moment',
-    'today_hours': 'https://mmvue.codecloudapp.com/today_hours.vue?noext' //append a dummy query string so requireJS doesn't auto-append .js to the end of the url
+    'Fuse': 'https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.0.4/fuse.min',
+    'today_hours': 'https://mmvue.codecloudapp.com/today_hours.vue?noext', //append a dummy query string so requireJS doesn't auto-append .js to the end of the url
+    'search-component': 'https://mmvue.codecloudapp.com/search-component.vue?noext'
   }
 });
 
