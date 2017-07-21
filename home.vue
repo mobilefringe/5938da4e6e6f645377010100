@@ -50,7 +50,7 @@
       },
       methods: {
         onOptionSelect(option) {
-          console.log('Selected option:', option)
+            console.log('Selected option:', option)
         },
         removeDuplicates(myArr, prop) {
     return myArr.filter((obj, pos, arr) => {
