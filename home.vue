@@ -10,7 +10,7 @@
         <p>{{property.name}}</p>
         <hr/>
         <today-hours></today-hours>
-        <search-component :list="processedStores" :suggestion-attribute="suggestionAttribute" @select="onOptionSelect">
+        <search-component v-model="search" :list="processedStores" :suggestion-attribute="suggestionAttribute" @select="onOptionSelect">
           <template slot="item" scope="option">
             <article class="media">
               <!--<figure class="media-left">
@@ -37,7 +37,8 @@
         return {
           title: "MM with Vue.js!",
           description: "An example of integration of Mall Maverick with Vue.js",
-          suggestionAttribute: 'name'
+          suggestionAttribute: 'name',
+          search: ''
         }
       },
       computed: {
